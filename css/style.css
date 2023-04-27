@@ -71,6 +71,17 @@ BODY {
   color: rgb(0, 203, 253);
 }
 
+.ind {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+}
+
 .cen {
   font-size: x-large;
   color: white;
