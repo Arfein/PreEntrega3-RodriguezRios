@@ -1,0 +1,15 @@
+/*Modificaciones generales */
+.formulario{padding: 50px; background-color: rgb(70, 69, 70); margin: 20px; border: 1px solid black; border-radius: 20px; font-size: x-large; color: white;}
+input:invalid {background-color: #ffdddd;}
+BODY{background-image: url(../img/fondo.jpg);}
+.p1{padding: 10px; border: 1px solid black; border-radius: 20px; background-color: black;}
+.nombres{padding: 10px; background-color: rgb(70, 69, 70); margin:center; margin-top: 10px; border: 1px solid black; border-radius: 10px; font-size: x-large; color: rgb(0, 203, 253);}
+.cen{ font-size: x-large; color: white;}
+p{font-size: x-large; font-style: "Lucida Console", "Courier New", monospace;}
+H1{font-size: xx-large; color: rgb(0, 203, 253);}
+.cont{padding: 10px; background-color: rgb(70, 69, 70); margin:center; margin-top: 10px; border: 1px solid black; border-radius: 10px; font-size: x-large; color: rgb(255, 255, 255);}
+
+/*Animaciones e interacciones */
+.trans{transition: all 1s; &:hover{transform: scale(2,2); cursor: pointer;}}
+.trans2{transition: all 2s; &:hover{transform: rotate(360deg); cursor: pointer;}}
+.nav-link{ color: #ffffff; &:hover { color: #00ccff; }}

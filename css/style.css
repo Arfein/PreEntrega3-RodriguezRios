@@ -1,0 +1,124 @@
+/* Estilo del header en general para todas las paginas */
+.headergeneral {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 0.5px groove;
+  border-radius: 20px;
+}
+
+/* Estilo del body general */
+.titulognral {
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Estilo del titulo en index */
+.titulo1home {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.titulo2home {
+  padding: 20px;
+}
+
+/* Estilo del footer general */
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 1px groove;
+  border-radius: 20px;
+}
+
+/*Modificaciones generales */
+.formulario {
+  padding: 50px;
+  background-color: rgb(70, 69, 70);
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: x-large;
+  color: white;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+BODY {
+  background-image: url(../img/fondo.jpg);
+}
+
+.p1 {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.nombres {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(0, 203, 253);
+}
+
+.cen {
+  font-size: x-large;
+  color: white;
+}
+
+p {
+  font-size: x-large;
+  font-style: "Lucida Console", "Courier New", monospace;
+}
+
+H1 {
+  font-size: xx-large;
+  color: rgb(0, 203, 253);
+}
+
+.cont {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+}
+
+/*Animaciones e interacciones */
+.trans {
+  transition: all 1s;
+}
+.trans:hover {
+  transform: scale(2, 2);
+  cursor: pointer;
+}
+
+.trans2 {
+  transition: all 2s;
+}
+.trans2:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #00ccff;
+}
+
+/*# sourceMappingURL=style.css.map */
